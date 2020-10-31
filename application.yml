@@ -5,11 +5,13 @@ spring:
 ---
 spring:
   profiles: dev     #开发环境
+  name: 这是开发环境的东东沙雕
   application: 
     name: microservicecloud-config-dev
 ---
 spring:
   profiles: test   #测试环境
+  name: 这是测试环境的东东
   application: 
     name: microservicecloud-config-test
 #  请保存为UTF-8格式
